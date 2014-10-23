@@ -12,7 +12,8 @@
     <com.example.touchstudy01.view.Layout01
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/blue" >
+        android:background="@color/blue"
+        android:visibility="gone" >
 
         <TextView
             android:layout_width="wrap_content"
@@ -30,5 +31,19 @@
             android:textColor="@color/blue"
             android:textSize="20sp" />
     </com.example.touchstudy01.view.Layout01>
+
+    <com.example.touchstudy01.view.MyLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center" >
+
+        <com.example.touchstudy01.view.MyButton
+            android:background="@color/yellow"
+            android:layout_width="wrap_content"
+            android:clickable="true"
+            android:gravity="center"
+            android:layout_height="40dp"
+            android:text="@string/hello_world3" />
+    </com.example.touchstudy01.view.MyLinearLayout>
 
 </RelativeLayout>
